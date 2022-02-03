@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Books@localhost" uuid="44c62bdd-6e00-44a2-97ee-15e78c152473">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Books</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL Server - s20511@db-mssql16.pjwstk.edu.pl" uuid="5fbb8b7f-30eb-4a1c-aba4-bf4f7f8a2cea">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://db-mssql16.pjwstk.edu.pl;database=s20511;integratedSecurity=true</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL Server (jTds) - s20511@db-mssql.pjwstk.edu.pl" uuid="162c8c7c-c9df-4064-a8f9-3465ceab1a1c">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://db-mssql.pjwstk.edu.pl/s20511</jdbc-url>
+      <driver-properties>
+        <property name="DOMAIN" value="PJWSTK" />
+        <property name="USENTLMV2" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
