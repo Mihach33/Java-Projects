@@ -1,5 +1,5 @@
 /**
- * @author Zlacheuski Pavel S20482
+ * @author Smilianets Mykhailo S20511
  */
 
 package zad1;
